@@ -26,5 +26,5 @@ function iLoveTheBeatles(n) {
     exclamations.push("I love the Beatles!");
     n++;
   }
-  while ((15 - n) < 15)
+  while ( n < 15)
 }
