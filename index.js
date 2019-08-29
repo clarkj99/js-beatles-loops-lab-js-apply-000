@@ -14,10 +14,10 @@ function johnLennonFacts(facts) {
   var i = 0;
   var newFacts = []
   while(i < facts.length) {
-    newFacts[i].concat(facts[i],"!!!");
+    newFacts.push(facts[i].concat("!!!"));
     i++;
   }
-  return facts;
+  return newFacts;
 }
 
 function iLoveTheBeatles() {
